@@ -1,0 +1,4 @@
+Enter Location,Weather Info,flag,username,timestamp
+london,Error fetching weather for london: [Errno 11001] getaddrinfo failed,,,2024-06-24 00:03:46.086561
+london,Error fetching weather for london: [Errno 11001] getaddrinfo failed,,,2024-06-24 00:03:48.176317
+,,,,2024-06-24 11:46:27.974372

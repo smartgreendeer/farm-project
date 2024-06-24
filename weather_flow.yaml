@@ -1,0 +1,22 @@
+blocks:
+  - name: "Weather Inquiry"
+    type: "input"
+    fields:
+      - name: "location"
+        label: "Location"
+        type: "text"
+        placeholder: "Enter city name"
+
+  - name: "Weather Response"
+    type: "action"
+    script:
+      fn: "weather.handle_weather"
+      inputs: ["location"]
+      outputs: ["weather_response"]
+
+  - name: "Weather Info"
+    type: "output"
+    fields:
+      - name: "weather_response"
+        label: "Weather Information"
+        type: "text"
